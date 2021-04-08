@@ -345,3 +345,61 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media(max-width:425px) {
+    div.nav-bar {
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+    }
+    ul.nav-links {
+        margin: 15px auto;
+    }
+    div.hero-section {
+        padding: 3rem;
+    }
+    div.hero-background {
+        padding: 3rem;
+    }
+    div.background p {
+        padding-left: 0;
+    }
+    div.background {
+        /* two values means (top and bottom) and (left and right) */
+        /* four values top right bottom left */
+        /* single value all */
+        padding: 15px 20px;
+        height: auto;
+    }
+    div.hero-background-pos {
+       display: none;
+       width: 100px;
+       height: 100px;
+       left: 70%;
+    }
+    div.snapshot-box-content {
+       flex-direction: column;
+    }
+    div.footer-input {
+        flex-direction: column;
+    }
+    input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    input[type="email"] {
+        width: 100%;
+        margin-right: 0;
+    }
+    textarea {
+        width: 100%;
+    }
+}
+
+@media(max-width: 375px) {
+    div.hero-background-pos {
+        display: none;
+}
