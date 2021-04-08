@@ -402,4 +402,5 @@ div.footer h6 {
 @media(max-width: 375px) {
     div.hero-background-pos {
         display: none;
-}
+    }
+    }
